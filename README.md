@@ -10,7 +10,7 @@ This project was built as a small side experiment to explore Blazor and see how 
 
 A basic Blazor Server template created with:
 
-'dotnet new blazorserver -o FlyIo.NET'
+`dotnet new blazorserver -o FlyIo.NET`
 
 Then deployed live with just a few Fly.io CLI commands. No Kubernetes, no overengineering.
 
@@ -39,7 +39,7 @@ Fly.Io will detect the .NET project, generate the config files, and guide you th
 
 After a short build, you’ll get a live URL like:
 
-'https://your-app-name.fly.dev'
+`https://your-app-name.fly.dev`
 
 ---
 
