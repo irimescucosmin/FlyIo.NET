@@ -21,7 +21,7 @@ Then deployed live with just a few Fly.io CLI commands. No Kubernetes, no overen
 Make sure you have the following installed:
 
 - [.NET SDK 8+](https://dotnet.microsoft.com/)
-- [Fly.io CLI ('flyctl')](https://fly.io/docs/hands-on/install-flyctl/)
+- [Fly.io CLI (`flyctl`)](https://fly.io/docs/hands-on/install-flyctl/)
 
 Then:
 
