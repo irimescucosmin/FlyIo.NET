@@ -1,4 +1,4 @@
-# FlyIO.NET 🚀
+# FlyIo.NET 🚀
 
 A minimal Blazor Server app deployed on [Fly.Io](https://fly.io) — no CI pipelines, no cloud dashboards, no drama.
 
@@ -69,7 +69,7 @@ I wanted to deploy something quickly, without setting up a full DevOps pipeline 
 Fly.io felt like the modern version of FTP — just smarter.
 
 This repo is part of a blog article I wrote:  
-➡️ [Hosting Blazor Apps Without DevOps Drama](https://cosminirimescu.com/deploy-dotnet-flyio)
+➡️ [Hosting Blazor Apps Without DevOps Drama](https://cosminirimescu.com/deploy-blazor-dotnet-flyio)
 
 ---
 
