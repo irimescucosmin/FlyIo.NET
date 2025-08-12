@@ -2,7 +2,8 @@
 
 A minimal Blazor Server app deployed on [Fly.Io](https://fly.io) — no CI pipelines, no cloud dashboards, no drama.
 
-This project was built as a small side experiment to explore Blazor and see how simple (or painful) deploying a .NET app could be in 2025. Turns out... it was easier than expected.
+This project was built as a small side experiment to explore Blazor and see how simple (or painful) deploying a .NET app
+could be in 2025. Turns out... it was easier than expected.
 
 ---
 

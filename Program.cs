@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
-using FlyIO.NET.Data;
+using FlyIo.NET.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 

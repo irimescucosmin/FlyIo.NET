@@ -1,4 +1,4 @@
-namespace FlyIO.NET.Data;
+namespace FlyIo.NET.Data;
 
 public class WeatherForecast
 {
