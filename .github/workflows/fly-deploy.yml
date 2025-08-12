@@ -1,0 +1,22 @@
+name: Fly Deploy
+
+on:
+  workflow_dispatch:  # manual trigger for now
+
+jobs:
+  deploy:
+    name: Deploy app
+    runs-on: ubuntu-latest
+    concurrency: deploy-group  # optional: ensures only one deploy runs at a time
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Fly.io CLI
+        uses: superfly/flyctl-actions/setup-flyctl@master
+
+      - name: Deploy with Fly
+        run: flyctl deploy --remote-only --config ./fly.toml
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
