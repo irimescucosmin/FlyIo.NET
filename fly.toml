@@ -1,10 +1,10 @@
-# fly.toml app configuration file generated for flyio-net on 2025-07-29T20:28:53+02:00
+# fly.toml app configuration file generated for flyio-net on 2025-08-13T01:32:22+02:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
 app = 'flyio-net'
-primary_region = 'fra'
+primary_region = 'iad'
 
 [build]
 
